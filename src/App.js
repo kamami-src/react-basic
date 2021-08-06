@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Basic1 from './components/Basic1';
-import Basic2 from './components/Basic2';
+// import Basic1 from './components/Basic1';
+// import Basic2 from './components/Basic2';
+import BasicUseEffect from './components/BasicUseEffect';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* <Basic1 name="Hooks" /> */}
-        <Basic2 />
+        {/* <Basic2 /> */}
+        <BasicUseEffect />
       </header>
     </div>
   );
